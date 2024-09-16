@@ -1,0 +1,101 @@
+
+.container {
+    display: flex;
+    flex-direction: horizontal;
+    
+    
+  }
+  
+  
+  .sort-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20px;
+    margin-left: 4px;
+    position: relative;
+  }
+  
+  
+  .sort-button {
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background: #f0f0f0;
+    cursor: pointer;
+    display: block;
+    width: 100px; 
+    text-align: center; 
+  }
+  
+  .sort-options {
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    width: 200px;
+    position: relative;
+    top: 40px; 
+    right: 0;
+    z-index: 1000; 
+    margin-left: 30px;
+  }
+  
+  
+  .sort-select {
+    width: 100%;
+    margin: 10px 0;
+    padding: 5px;
+  }
+  
+  
+  .sort-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+  }
+  
+  .sort-button-asc, .sort-button-desc {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .sort-button-asc {
+    background-color: #4CAF50; 
+  }
+  
+  .sort-button-desc {
+    background-color: #f44336; 
+  }
+  
+  
+  table.sortable-table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  th, td {
+    border: 1px solid black;
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #f5f5f5;
+  }
+  
+  
+  
+
+
+
+
+
+
+  
