@@ -7,7 +7,7 @@ import PopupTable from './PopUpTable';
 const App = () => {
   const [tableData, setTableData] = useState(jsonData);
   const [sortColumn, setSortColumn] = useState(null); 
-  const [sortOrder, setSortOrder] = useState(null);   
+   
   const [isDropdownVisible, setIsDropdownVisible] = useState(false); 
 
   const [selectedYear, setSelectedYear] = useState(null);
